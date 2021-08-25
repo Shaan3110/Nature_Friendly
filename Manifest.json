@@ -1,0 +1,23 @@
+{
+    "name": "Nature Friendly",
+    "description": "Buy nature friendly products and see your contribution to mother nature",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    
+    "icons":{"128": "icons/icon_128.png","64": "icons/icon_64.png"},
+
+
+    "background": {
+        "service_worker": "./background.js"
+    },
+
+
+    "permissions": ["activeTab","tabs","scripting","storage"],
+    "options_page":"./options-pages/options.html",
+
+
+    "action": {
+            "default_popup": "./homepage.html",
+            "default_icons": {"128": "icons/icon_128.png","64": "icons/icon_64.png"}
+    }
+  }

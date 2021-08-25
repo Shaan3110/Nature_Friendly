@@ -1,0 +1,7 @@
+.main-container{
+    width: 32rem;
+    height: 36rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
