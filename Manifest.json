@@ -3,7 +3,7 @@
     "description": "Buy nature friendly products and see your contribution to mother nature",
     "version": "1.0.0",
     "manifest_version": 3,
-    
+
     "icons":{"128": "icons/icon_128.png","64": "icons/icon_64.png"},
 
 
@@ -17,7 +17,7 @@
 
 
     "action": {
-            "default_popup": "./homepage.html",
+            "default_popup": "./popup-pages/homepage.html",
             "default_icons": {"128": "icons/icon_128.png","64": "icons/icon_64.png"}
     }
   }
